@@ -7,8 +7,8 @@ const Menu = () =>{
   <>
     <p><a href="#home">Home</a></p>
     <p><a href="#wgpt">What is GPT3?</a></p>
-    <p><a href="#possiblity">Open AI</a></p>
-    <p><a href="#featurew">Case Study</a></p>
+    <p><a href="#possiliblity">Open AI</a></p>
+    <p><a href="#features">Case Study</a></p>
     <p><a href="#blog">Library</a></p>
   </>
 }
@@ -26,8 +26,8 @@ const [toogleMenu, setToogleMenu] = useState(false);
             <div className="gpt3__navbar-links_container">
               <p><a href="#home">Home</a></p>
               <p><a href="#wgpt">What is GPT3?</a></p>
-              <p><a href="#possiblity">Open AI</a></p>
-              <p><a href="#featurew">Case Study</a></p>
+              <p><a href="#possiliblity">Open AI</a></p>
+              <p><a href="#features">Case Study</a></p>
               <p><a href="#blog">Library</a></p>
               {/* <Menu/> */}
             </div>
@@ -45,7 +45,12 @@ const [toogleMenu, setToogleMenu] = useState(false);
                 toogleMenu && (
                   <div className="gpt3__navbar-menu_container scale-up-center">
                       <div className="gpt3__navbar-menu_container-links">
-                        <Menu/>
+                        {/* <Menu/> */}
+                        <p><a href="#home">Home</a></p>
+                        <p><a href="#wgpt">What is GPT3?</a></p>
+                        <p><a href="#possiblity">Open AI</a></p>
+                        <p><a href="#featurew">Case Study</a></p>
+                        <p><a href="#blog">Library</a></p>
                         <div className="gpt3__navbar_sign-links-bar">
                           <p>Sign in</p>
                           <button type='button'>Sign up</button>
